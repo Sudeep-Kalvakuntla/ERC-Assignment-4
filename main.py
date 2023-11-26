@@ -60,16 +60,9 @@ game_duration = 30  # 1/2 minute in seconds
 def is_within_acceptance(puck, target, acceptance_percent=5):
     #complete the function
     #7
-    global is_target_hit
-
-    dist = int(math.sqrt(abs((puck[0] - target[0][targets_hit])^2 + (puck[1] - target[1][targets_hit])^2)))
-
-    if dist >= int((frame_width/24 + 30)*(105/100)):
-        is_target_hit = True
-    else:
-        is_target_hit = False
-
-    return is_target_hit
+    
+    return (
+    0)
 '''
     
 while True:
